@@ -1,0 +1,29 @@
+/**
+ * Header Component
+ */
+
+.header-height {
+    height: 90px;
+}
+
+.logo-mw {
+    padding: 13px 30px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+.btn-navbar {
+    display: flex;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.btn-navbar:hover {
+    background: var(--col-heavyDark);
+}
+
+.bg-signUp {
+    background: var(--col-heavyDark);
+}

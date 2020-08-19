@@ -1,0 +1,381 @@
+/**
+ * Landing Page CSS
+ */
+
+.header-bg {
+    height: 650px;
+    background-image: url("../img/landing/bg-cover-image.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn-landing-bg {
+    width: 100%;
+    max-width: 503px;
+    height: 100%;
+    max-height: 100px;
+
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.therapy-desc {
+    position: absolute;
+    top: 360px;
+    left: 50px;
+}
+
+.btn-trial {
+    display: flex;
+    position: absolute;
+    top: 408px;
+    left: 50px;
+    width: 100%;
+    max-width: 220px;
+    height: 100%;
+    max-height: 48px;
+    border: 2px solid var(--col-lightColor);
+    border-radius: 4px;
+}
+
+.btn-trial:hover {
+    color: var(--col-heavyDark);
+    background-color: var(--col-lightColor);
+    box-shadow: 0 4px 8px 0 rgba(71, 67, 237, 0.2);
+}
+
+/**
+ * Take your practice online
+ */
+.take-practice {
+    padding-top: 34px;
+}
+
+.connect-before {
+    padding-top: 19px;
+    padding-bottom: 64px;
+}
+
+.flex-grid4 {
+    grid-column-gap: 40px;
+}
+
+.take-practice-tp {
+    margin: 0 auto;
+    padding-top: 47px;
+    max-width: 80%;
+    text-align: center;
+}
+
+.online-img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.btn-try-our {
+    margin: 20px;
+    padding: 10px 40px;
+    border: 1px solid var(--col-bttonAndLink);
+    border-radius: 4px;
+}
+
+.btn-request-b {
+    border: 1px solid var(--col-foreGround);
+}
+
+.btn-try-our:hover {
+    color: #ffffff;
+    background-color: var(--col-bttonAndLink);
+}
+
+.online-practice-pm {
+    display: flex;
+    padding-top: 116px;
+    padding-bottom: 39px;
+}
+
+
+.bg-buttonAndLink {
+    background: linear-gradient(90deg, #00CED1 0%, #00DD92 100%);
+}
+
+.watch-icon-pd {
+    padding-top: 47px;
+    padding-bottom: 60px;
+}
+
+.request-pm {
+    display: flex;
+    padding-top: 17px;
+    padding-bottom: 73px;
+}
+
+/**
+ * Who uses this app?
+ */
+.use-app {
+    padding-top: 40px;
+    padding-bottom: 19px;
+}
+
+.app-desc {
+    padding-bottom: 46px;
+}
+
+.check-width {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 80%;
+}
+
+/**
+ * circle check box
+ */
+.round {
+    position: relative;
+}
+
+.round label {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 20px;
+}
+
+.round label:after {
+    border: 2px solid var(--col-heavyDark);
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 2px;
+    opacity: 0;
+    position: absolute;
+    top: 3px;
+    transform: rotate(-50deg);
+    width: 10px;
+}
+
+.round input[type="checkbox"] {
+    visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + label {
+    background-color: #ffffff;
+    border-color: var(--col-heavyDark);
+}
+
+.round input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+}
+
+.check-flex {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.circle-pd {
+    margin-left: 13px;
+}
+
+/**
+ * The features you need and want
+ */
+
+.features-needs {
+    padding-top: 170px;
+}
+
+.features-pd {
+    margin: 0 auto;
+    padding-top: 23px;
+    padding-bottom: 114px;
+    width: 100%;
+    max-width: 50%;
+    text-align: center;
+}
+
+.features-img-pb {
+    padding-bottom: 16px;
+}
+
+.features-icon-desc {
+    padding-top: 20px;
+}
+
+.features-mb {
+    margin-bottom: 104px;
+}
+
+.features-icons {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 108px;
+    text-align: center;
+}
+
+.refixing-gap {
+    grid-column-gap: 20px;
+}
+
+/**
+ * Why US?
+ */
+.why-us-bg {
+    padding-top: 64px;
+    height: 422px;
+    background-image: url("../img/landing/why-us-cover.svg");
+}
+
+.why-us-pd {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    text-align: left;
+}
+
+.why-us-desc {
+    padding-top: 20px;
+    max-width: 56%;
+}
+
+.btn-learn-more {
+    padding: 10px 40px;
+    border: 2px solid var(--col-lightColor);
+    border-radius: 4px;
+}
+
+.btn-learn-more:hover {
+    background-color: var(--col-lightColor);
+
+}
+
+.justify-left {
+    display: flex;
+    padding-top: 44px;
+}
+
+.connect-clients {
+    height: 489px;
+    width: 100%;
+    background-repeat: no-repeat !important;
+    background: linear-gradient(270deg, #FFFFFF 21.07%, rgba(255, 255, 255, 0) 39.28%), url('../img/landing/connect-clients-bg.svg');
+}
+
+.connect-contents {
+    margin-right: 10%;
+    max-width: 1200px;
+    margin-left: 50%;
+    line-height: 2;
+}
+
+.btn-learn-features {
+    display: flex;
+    margin-top: 20px;
+    padding: 15px 15px;
+    border-radius: 4px;
+    border: 2px solid;
+    background-color: var(--col-bttonAndLink);
+}
+
+.btn-learn-features:hover {
+    border: 2px solid var(--col-bttonAndLink);
+    color: var(--col-bttonAndLink);
+    background-color: #ffffff;
+}
+.connect-txt-pb {
+    padding-bottom: 25px;
+}
+
+.our-customers {
+    padding-top: 37px;
+    padding-bottom: 104px;
+    height: auto;
+    background: linear-gradient(90deg, #00CED1 0%, #00DD92 100%);
+}
+
+.star-pt {
+    padding-top: 17px;
+    padding-bottom: 57px;
+}
+
+/**
+ * Slider
+ */
+
+.owl-carousel .owl-item img {
+    margin: 20px auto;
+    width: 80% !important;
+    text-align: center !important;
+}
+
+/**
+ * arrow customize
+ */
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+
+    background: #ffffff !important;
+}
+
+.owl-theme .owl-nav {
+    padding-top: 60px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    position: relative;
+    margin: 35px 15px;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev
+{
+    position: absolute;
+    margin-top: 0;
+    border: none;
+    padding-top: 15px;
+    width: 40px;
+    font-size: 40px !important;
+
+    color: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    margin-top: -50px;
+    left: -15px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    margin-top: -50px;
+    right: -15px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    display: inline !important;
+}
+
+/**
+ * Check out our pricing and sign up for our free 3-day trial
+ */
+.check-trial-bg {
+    padding-top: 40px;
+    padding-bottom: 38px;
+    height: auto;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 100%), url('../img/landing/check-trial-bg.svg');
+}
+
+.offer-plan {
+    padding-top: 20px;
+}
+
+.btn-start {
+    padding: 15px 40px;
+}

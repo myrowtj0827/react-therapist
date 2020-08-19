@@ -1,0 +1,50 @@
+
+/**
+ * Footer page
+ */
+
+.footer-pd {
+    padding: 68px 0 111px;
+}
+
+.footer-menu {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.txt-align {
+    text-align: left;
+    line-height: 2.5;
+}
+
+.btn-contact-us {
+    margin-top: 20px;
+    margin-bottom: 32px;
+    padding: 0 25px;
+    border: 1px solid var(--col-bttonAndLink);
+    border-radius: 4px;
+}
+
+.btn-contact-us:hover {
+    color: #ffffff;
+    background-color: var(--col-bttonAndLink);
+}
+
+.contact-align {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    text-align: left;
+}
+
+.icon-mr {
+    margin-right: 10px;
+}
+
+.stripe-pt {
+    padding-top: 85px;
+}
+
+.hipaa-stripe {
+    padding-right: 29px;
+}
