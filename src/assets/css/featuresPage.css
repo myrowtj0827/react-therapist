@@ -58,6 +58,7 @@
     grid-column-gap: 19px;
 }
 
+
 .empty-img {
     margin: 0 auto;
     width: 100%;
@@ -98,3 +99,42 @@
     align-items: center;
 }
 
+
+/**
+ * Features Online Sessions
+ */
+.online-grid2-l {
+    display: grid;
+    padding-bottom: 81px;
+    grid-template-columns: 2.3fr 1fr;
+    grid-auto-rows: 1fr;
+    grid-column-gap: 41px;
+}
+
+
+.online-grid2-r {
+    display: grid;
+    padding-bottom: 81px;
+    grid-template-columns: 1fr 2.3fr;
+    grid-auto-rows: 1fr;
+    grid-column-gap: 57px;
+}
+
+.empty-img-inversion {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    height: 315px;
+    text-align: center;
+
+    background-color: #0002;
+}
+
+.title-ptb {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.desc-features {
+    padding-bottom: 20px;
+}

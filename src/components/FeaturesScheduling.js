@@ -4,7 +4,6 @@ import '../assets/css/featuresPage.css';
 
 function FeaturesScheduling() {
     return (
-
         <div>
             <div className="features-payment-bgColor justify-center">
                 <Header></Header>
@@ -108,7 +107,6 @@ function FeaturesScheduling() {
                 </div>
             </div>
         </div>
-
     );
 }
 

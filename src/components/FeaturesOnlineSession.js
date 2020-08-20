@@ -29,88 +29,145 @@ function FeaturesOnlineSession() {
 
 
             <div className="whole-body-mW features-header-pt align-l">
-                <div className="features-flex-grid2">
-                    <div className="empty-img"></div>
+                <div className="online-grid2-l">
+                    <div className="empty-img-inversion"></div>
                     <div className="txt-18 col-heavyDark">
-                        <div className="txt-26 txt-bold col-paragraphBg features-payment-pb1">
-                            Beautiful telehealth sessions that put video first.
-                        </div>
-                        <div className="features-payment-pb2 col-lightColor">
-                            Seeing your client is our top priority.
+                        <div className="txt-32 txt-bold col-darkBlue title-ptb">
+                            Scheduling
                         </div>
 
-                        <div className="features-payment-pb3">
-                            Let your client(s) out of the waiting room when you are ready.
+                        <div>
+                            The calendar is clean and easy to use. We’ve got you covered on recurring appointments, appointment reminders, and your client’s ability to request appointments from your website or ours!
                         </div>
-                        <div className="features-payment-pb3">
-                            Chat with them while they are in the waiting room to let you know you’ll be right with them.
+                    </div>
+                </div>
+
+                <div className="online-grid2-r">
+                    <div className="txt-18 col-heavyDark">
+                        <div className="txt-32 txt-bold col-darkBlue title-ptb">
+                            Custom Waiting Room
                         </div>
-                        <div className="features-payment-pb3">
-                            Double click on any video window to make them larger (80%) of your screen!
+
+                        <div className="desc-features">
+                            Our waiting room is amazing. Plain and simple. You choose the imagery and the music.
+                        </div>
+                        <div>
+                            Clients are directed to your custom waiting room until you let them into the session – just like they are in your office!
+                        </div>
+                    </div>
+                    <div className="empty-img-inversion"></div>
+                </div>
+
+
+                <div className="online-grid2-l">
+                    <div className="empty-img-inversion"></div>
+                    <div className="txt-18 col-heavyDark">
+                        <div className="txt-32 txt-bold col-darkBlue title-ptb">
+                            Client & Session Notes
+                        </div>
+
+                        <div className="desc-features">
+                            Easily take notes after a session or even just a quick note about the client.
+                        </div>
+                        <div>
+                            Our notes are beautiful, easy to use, and you get to make them the way you want!
+                        </div>
+                    </div>
+                </div>
+
+                <div className="online-grid2-r">
+                    <div className="txt-18 col-heavyDark">
+                        <div className="txt-32 txt-bold col-darkBlue title-ptb">
+                            Client Payment
+                        </div>
+
+                        <div>
+                            Your clients can pay you prior to joining a session or you can request a payment from them at any time. Clients simply login and click the “Pay Now” button.
+                        </div>
+                    </div>
+                    <div className="empty-img-inversion"></div>
+                </div>
+
+
+                <div className="online-grid2-l">
+                    <div className="empty-img-inversion"></div>
+                    <div className="txt-18 col-heavyDark">
+                        <div className="txt-32 txt-bold col-darkBlue title-ptb">
+                            Secure Messaging
+                        </div>
+
+                        <div>
+                            Message with your clients, colleagues, and staff members! Messages are securely stored on thera-LINK servers. If someone isn’t logged in when they receive a message, they’ll get a notification email to let them know to login and retrieve the message.
+                        </div>
+                    </div>
+                </div>
+
+                <div className="online-grid2-r">
+                    <div className="txt-18 col-heavyDark">
+                        <div className="txt-32 txt-bold col-darkBlue title-ptb">
+                            File Sharing
+                        </div>
+
+                        <div>
+                            File sharing is super easy and painless – even for the non-tech savvy folks! Just upload the file, select the client(s) to share with and that’s it! Notifications happen seamlessly to let everyone know.
+                        </div>
+                    </div>
+                    <div className="empty-img-inversion"></div>
+                </div>
+
+
+                <div className="online-grid2-l">
+                    <div className="empty-img-inversion"></div>
+                    <div className="txt-18 col-heavyDark">
+                        <div className="txt-32 txt-bold col-darkBlue title-ptb">
+                            Client Profile
+                        </div>
+
+                        <div>
+                            Client profiles give you information about your client right at your fingertips. See all notes related to that client, a report of past appointments, how long sessions lasted, payment, and personal information.
+                        </div>
+                    </div>
+                </div>
+
+                <div className="online-grid2-r">
+                    <div className="txt-18 col-heavyDark">
+                        <div className="txt-32 txt-bold col-darkBlue title-ptb">
+                            Secure Video
+                        </div>
+
+                        <div className="desc-features">
+                            The video is beautiful and secure with all streams encrypted end to end.
+                        </div>
+                        <div>
+                            You can have multiple people in one session and all be seen at the same time.
+                        </div>
+                    </div>
+                    <div className="empty-img-inversion"></div>
+                </div>
+
+
+                <div className="online-grid2-l">
+                    <div className="empty-img-inversion"></div>
+                    <div className="txt-18 col-heavyDark">
+                        <div className="txt-32 txt-bold col-darkBlue title-ptb">
+                            Directory Listing
+                        </div>
+
+                        <div className="desc-features">
+                            Our Directory showcases only thera-LINK providers who choose to be listed.
+                        </div>
+                        <div>
+                            We handle the behind the scenes work to help clients find you and connect.
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="whole-body-mW align-l">
-                <div className="features-flex-grid2">
-                    <div className="empty-img"></div>
-                    <div className="txt-18 col-heavyDark">
-                        <div className="txt-26 txt-bold col-paragraphBg features-payment-pb1">
-                            Wonderful therapeutic experience for your clients!
-                        </div>
-                        <div className="features-payment-pb2 col-lightColor">
-                            Our waiting rooms are going to be your client's favorite.
-                        </div>
-
-                        <div className="features-payment-pb3">
-                            Customize your waiting room with marvelous imagery.
-                        </div>
-                        <div className="features-payment-pb3">
-                            Select from music options like acoustic, spa, R&B, and more.
-                        </div>
-                        <div className="features-payment-pb3">
-                            Clients wait in your waiting room until you let them in session.
-                        </div>
-                        <div className="features-payment-pb3">
-                            Payment can be required before client’s enter into session.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="whole-body-mW align-l">
-                <div className="features-flex-grid2">
-                    <div className="empty-img"></div>
-                    <div className="txt-18 col-heavyDark">
-                        <div className="txt-26 txt-bold col-paragraphBg features-payment-pb1">
-                            Seamless group telehealth sessions
-                        </div>
-                        <div className="features-payment-pb2 col-lightColor">
-                            Have a couple, family, or group session!
-                        </div>
-
-                        <div className="features-payment-pb3">
-                            See everyone in the group session just like you were in-office.
-                        </div>
-                        <div className="features-payment-pb3">
-                            Share your screen with everyone in the session!
-                        </div>
-                        <div className="features-payment-pb3">
-                            Hide your self view and see your clients even larger on screen.
-                        </div>
-                        <div className="features-payment-pb3">
-                            You can mute clients or they can mute themselves as needed.
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <div className="sign-up-for justify-center">
                 <div className="whole-body-mW justify-rl">
                     <div className="btn-txt">
                         <div className="txt-24 justify-center">Ready to get started now?</div>
-
                         <div className="btn-try-our btn-request-b txt-24 mouse-cursor">SIGN UP FOR FREE TRIAL</div>
                     </div>
                 </div>
