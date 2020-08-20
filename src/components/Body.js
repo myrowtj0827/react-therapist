@@ -14,7 +14,8 @@ import FeaturesPayments from "./FeaturesPayment";
 import FeaturesScheduling from "./FeaturesScheduling";
 import HelpArticle from "./HelpArticle";
 import HelpCenter from "./HelpCenter";
-import HelpCenterDetails from "./HelpCenterDetail";
+import HelpCenterDetail from "./HelpCenterDetail";
+import BlogArticle from "./BlogArticle";
 import Home from './Home';
 
 
@@ -25,6 +26,32 @@ function Body() {
                 path='/home'
                 component={Landing}
             />
+
+            <Route
+                path='/help-center'
+                component={HelpCenter}
+             />
+
+            <Route
+                path='/help-article'
+                component={HelpArticle}
+            />
+
+            <Route
+                path='/help-center-detail'
+                component={HelpCenterDetail}
+            />
+
+            <Route
+                path='/blog'
+                component={Blog}
+            />
+
+            <Route
+                path='/blog-article'
+                component={BlogArticle}
+             />
+
             <Route
                 path='/pricing'
                 component={Pricing}

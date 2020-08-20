@@ -64,13 +64,16 @@ function Footer() {
                 </div>
             </div>
 
-            <div className="stripe-pt justify-rl">
+            <div className="stripe-pt justify-footer">
                 <div>
                     <div>
                         <img className="mouse-cursor" src={require('../assets/img/landing/app-logo.svg')} alt="" />
+                        <div className="txt-12 col-buttonAndLink">
+                            &copy;2020 Tele Therapist LLC. All Rights Reserved.
+                        </div>
                     </div>
 
-                    <div className="justify-rl">
+                    <div className="justify-footer">
                         <img className="hipaa-stripe mouse-cursor" src={require('../assets/img/landing/hipaa-compliance.svg')} alt="" />
                         <img className="mouse-cursor" src={require('../assets/img/landing/powered-by-stripe.svg')} alt="" />
                     </div>

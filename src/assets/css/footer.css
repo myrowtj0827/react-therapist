@@ -3,6 +3,12 @@
  * Footer page
  */
 
+@media screen {
+    .footer-menu {
+        padding-right: 60px !important;
+        padding-left: 60px !important;
+    }
+}
 .footer-pd {
     padding: 68px 0 111px;
 }

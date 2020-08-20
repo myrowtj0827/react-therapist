@@ -1,12 +1,135 @@
 /**
  * Landing Page CSS
  */
+@media screen and (max-width: 1440px) {
 
+}
+
+@media screen and (max-width: 1200px) {
+    .header-bg {
+        background-position: right 45% !important;
+    }
+
+    .check-width {
+        max-width: 90% !important;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .btn-landing-bg {
+        padding-left: 50px !important;
+        max-width: 100% !important;
+        justify-content: left !important;
+    }
+
+    .why-us-desc {
+        max-width: 80% !important;
+    }
+
+    .online-img {
+        max-width: 60% !important;
+    }
+
+    .connect-contents {
+        margin-left: 40% !important;
+        margin-right: 5% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .why-us-desc {
+        max-width: 100% !important;
+    }
+
+    .features-pd {
+        max-width: 80% !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .online-img {
+        max-width: 70% !important;
+    }
+
+    .btn-try-our {
+        padding: 10px 30px !important;
+    }
+
+    .why-us-pd {
+        padding: 0 20px!important;
+    }
+
+    .btn-learn-more {
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: center !important;
+    }
+
+    .connect-contents {
+        margin-left: 5% !important;
+    }
+
+    .btn-learn-features {
+        display: inline !important;
+        margin-top: 40px !important;
+        padding: 10px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .btn-landing-bg {
+        margin: 0 auto !important;
+        padding-left: 0 !important;
+        max-width: 100% !important;
+        justify-content: center !important;
+    }
+
+    .therapy-desc {
+        left: 0 !important;
+        margin: 0 auto !important;
+        width: 100%;
+        text-align: center !important;
+    }
+
+    .btn-trial {
+        left: 20px !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+        max-width: calc(100% - 40px) !important;
+        text-align: center !important;
+    }
+
+    .online-img {
+        max-width: 40% !important;
+    }
+
+    .online-practice-pm {
+        padding-top: 50px !important;
+    }
+
+    .online-practice-pm, .request-pm {
+        display: inline !important;
+    }
+
+    .bg-buttonAndLink {
+        min-height: 590px !important;
+    }
+
+
+}
+
+/**
+ * body
+ */
 .header-bg {
     height: 650px;
+    min-width: 310px !important;
     background-image: url("../img/landing/bg-cover-image.svg");
     background-size: cover;
-    background-position: center;
+    background-position: top 0%  center;
     background-repeat: no-repeat;
 }
 
@@ -17,12 +140,14 @@
     max-height: 100px;
 
     background: rgba(0, 0, 0, 0.4);
+    transition: all .15s linear;
 }
 
 .therapy-desc {
     position: absolute;
     top: 360px;
     left: 50px;
+    min-width: 250px;
 }
 
 .btn-trial {
@@ -30,18 +155,20 @@
     position: absolute;
     top: 408px;
     left: 50px;
-    width: 100%;
-    max-width: 220px;
-    height: 100%;
-    max-height: 48px;
     border: 2px solid var(--col-lightColor);
     border-radius: 4px;
+
+    width: 100%;
+    max-width: 240px;
+    min-width: 250px;
+    height: 100%;
+    max-height: 48px;
+
+    transition: all .15s linear;
 }
 
 .btn-trial:hover {
-    color: var(--col-heavyDark);
-    background-color: var(--col-lightColor);
-    box-shadow: 0 4px 8px 0 rgba(71, 67, 237, 0.2);
+    background-color: #0002;
 }
 
 /**
@@ -77,6 +204,12 @@
     padding: 10px 40px;
     border: 1px solid var(--col-bttonAndLink);
     border-radius: 4px;
+    ransition: all .15s linear;
+}
+
+.try-pricing:hover {
+    color: #ffffff;
+    background-color: var(--col-bttonAndLink) !important;
 }
 
 .btn-request-b {
@@ -84,8 +217,7 @@
 }
 
 .btn-try-our:hover {
-    color: #ffffff;
-    background-color: var(--col-bttonAndLink);
+    background-color: #fff2;
 }
 
 .online-practice-pm {
@@ -94,8 +226,17 @@
     padding-bottom: 39px;
 }
 
+.use-app-flex {
+    display: flex;
+    margin-top: 20px;
+}
+
+.general-flex {
+    display: flex;
+}
 
 .bg-buttonAndLink {
+    height: auto;
     background: linear-gradient(90deg, #00CED1 0%, #00DD92 100%);
 }
 
@@ -229,12 +370,14 @@
  */
 .why-us-bg {
     padding-top: 64px;
-    height: 422px;
+    padding-bottom: 86px;
+    height: auto;
     background-image: url("../img/landing/why-us-cover.svg");
 }
 
 .why-us-pd {
     margin: 0 auto;
+    padding: 0 50px;
     width: 100%;
     max-width: 1200px;
     text-align: left;
@@ -249,10 +392,11 @@
     padding: 10px 40px;
     border: 2px solid var(--col-lightColor);
     border-radius: 4px;
+    ransition: all .15s linear;
 }
 
 .btn-learn-more:hover {
-    background-color: var(--col-lightColor);
+    background-color: #0002;
 
 }
 
@@ -282,6 +426,7 @@
     border-radius: 4px;
     border: 2px solid;
     background-color: var(--col-bttonAndLink);
+    ransition: all .15s linear;
 }
 
 .btn-learn-features:hover {
@@ -378,4 +523,5 @@
 
 .btn-start {
     padding: 15px 40px;
+    ransition: all .15s linear;
 }

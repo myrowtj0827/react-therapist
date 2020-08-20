@@ -36,10 +36,31 @@ function App() {
               component={Landing}
           />
 
+            <Route
+                path='/help-article'
+                component={HelpArticle}
+            />
+
+            <Route
+              path='/help-center-detail'
+              component={HelpCenterDetail}
+             />
+
           <Route
               path='/help'
               component={HelpCenter}
           />
+
+          <Route
+              path='/blog'
+              component={Blog}
+          />
+
+          <Route
+              path='/blog-article'
+              component={BlogArticle}
+          />
+
           <Route
               path='/directory'
               component={Directory}

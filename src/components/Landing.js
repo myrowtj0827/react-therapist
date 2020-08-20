@@ -12,11 +12,8 @@ function Landing() {
         <div>
             <div className="header-bg">
                 <Header> </Header>
-
                 <div className="btn-header btn-landing-bg justify-center txt-42 txt-bold">Healthcare Anywhere.</div>
-
                 <div className="therapy-desc txt-20 txt-italic">Online Therapy Service for Everybody</div>
-
                 <div className="btn-trial justify-center mouse-cursor txt-16">Join Us For 3-day Free Trial</div>
             </div>
 
@@ -65,9 +62,9 @@ function Landing() {
                 </div>
 
                 <div className="online-practice-pm justify-center">
-                    <div className="btn-try-our col-buttonAndLink mouse-cursor txt-24">TRY FREE</div>
+                    <div className="btn-try-our try-pricing col-buttonAndLink mouse-cursor txt-24">TRY FREE</div>
 
-                    <div className="btn-try-our col-buttonAndLink mouse-cursor txt-24">OUR PRICING</div>
+                    <div className="btn-try-our try-pricing col-buttonAndLink mouse-cursor txt-24">OUR PRICING</div>
                 </div>
             </div>
 
@@ -97,116 +94,83 @@ function Landing() {
                 </div>
 
                 <div className="check-width flex-grid2">
-                    <div className="check-flex">
-                        <div className="round">
-                            <input type="checkbox" id="checkbox1"/>
-                            <label htmlFor="checkbox1"></label>
-                        </div>
-                        <span className="circle-pd txt-24 col-heavyDark mouse-cursor">Addition Specialists</span>
+                    {/*<div className="check-flex">*/}
+                    {/*    <div className="round">*/}
+                    {/*        <input type="checkbox" id="checkbox1"/>*/}
+                    {/*        <label htmlFor="checkbox1"></label>*/}
+                    {/*    </div>*/}
+                    {/*    <span className="circle-pd txt-24 col-heavyDark mouse-cursor">Addition Specialists</span>*/}
+                    {/*</div>*/}
+
+                    <div className="use-app-flex">
+                        <div><img src={require('../assets/img/landing/circle-checkBox.svg')} alt="" /> </div>
+                        <div className="circle-pd txt-24 col-heavyDark">Addition Specialists</div>
                     </div>
 
-                    <div className="check-flex">
-                        <div className="round">
-                            <input type="checkbox" id="checkbox2"/>
-                            <label htmlFor="checkbox2"></label>
-                        </div>
-                        <span className="circle-pd txt-24 col-heavyDark mouse-cursor">Mental Health Therapists</span>
+
+                    <div className="use-app-flex">
+                        <div><img src={require('../assets/img/landing/circle-checkBox.svg')} alt="" /> </div>
+                        <div className="circle-pd txt-24 col-heavyDark">Mental Health Therapists</div>
                     </div>
 
-                    <div className="check-flex">
-                        <div className="round">
-                            <input type="checkbox" id="checkbox3"/>
-                            <label htmlFor="checkbox3"></label>
-                        </div>
-                        <span className="circle-pd txt-24 col-heavyDark mouse-cursor">Coaches</span>
+                    <div className="use-app-flex">
+                        <div><img src={require('../assets/img/landing/circle-checkBox.svg')} alt="" /> </div>
+                        <div className="circle-pd txt-24 col-heavyDark">Coaches</div>
                     </div>
 
-                    <div className="check-flex">
-                        <div className="round">
-                            <input type="checkbox" id="checkbox4"/>
-                            <label htmlFor="checkbox4"></label>
-                        </div>
-                        <span className="circle-pd txt-24 col-heavyDark mouse-cursor">Physical Therapists</span>
+                    <div className="use-app-flex">
+                        <div><img src={require('../assets/img/landing/circle-checkBox.svg')} alt="" /> </div>
+                        <div className="circle-pd txt-24 col-heavyDark">Physical Therapists</div>
                     </div>
 
-                    <div className="check-flex">
-                        <div className="round">
-                            <input type="checkbox" id="checkbox5"/>
-                            <label htmlFor="checkbox5"></label>
-                        </div>
-                        <span className="circle-pd txt-24 col-heavyDark mouse-cursor">Counselors</span>
+                    <div className="use-app-flex">
+                        <div><img src={require('../assets/img/landing/circle-checkBox.svg')} alt="" /> </div>
+                        <div className="circle-pd txt-24 col-heavyDark">Counselors</div>
                     </div>
 
-                    <div className="check-flex">
-                        <div className="round">
-                            <input type="checkbox" id="checkbox6"/>
-                            <label htmlFor="checkbox6"></label>
-                        </div>
-                        <span className="circle-pd txt-24 col-heavyDark mouse-cursor">Psychologists</span>
+                    <div className="use-app-flex">
+                        <div><img src={require('../assets/img/landing/circle-checkBox.svg')} alt="" /> </div>
+                        <div className="circle-pd txt-24 col-heavyDark">Psychologists</div>
                     </div>
 
-                    <div className="check-flex">
-                        <div className="round">
-                            <input type="checkbox" id="checkbox7"/>
-                            <label htmlFor="checkbox7"></label>
-                        </div>
-                        <span className="circle-pd txt-24 col-heavyDark mouse-cursor">Dietitians</span>
+                    <div className="use-app-flex">
+                        <div><img src={require('../assets/img/landing/circle-checkBox.svg')} alt="" /> </div>
+                        <div className="circle-pd txt-24 col-heavyDark">Dietitians</div>
                     </div>
 
-                    <div className="check-flex">
-                        <div className="round">
-                            <input type="checkbox" id="checkbox8"/>
-                            <label htmlFor="checkbox8"></label>
-                        </div>
-                        <span className="circle-pd txt-24 col-heavyDark mouse-cursor">Psychiatrists</span>
+                    <div className="use-app-flex">
+                        <div><img src={require('../assets/img/landing/circle-checkBox.svg')} alt="" /> </div>
+                        <div className="circle-pd txt-24 col-heavyDark">Psychiatrists</div>
                     </div>
 
-                    <div className="check-flex">
-                        <div className="round">
-                            <input type="checkbox" id="checkbox9"/>
-                            <label htmlFor="checkbox9"></label>
-                        </div>
-                        <span className="circle-pd txt-24 col-heavyDark mouse-cursor">Hypnotherapists</span>
+                    <div className="use-app-flex">
+                        <div><img src={require('../assets/img/landing/circle-checkBox.svg')} alt="" /> </div>
+                        <div className="circle-pd txt-24 col-heavyDark">Hypnotherapists</div>
                     </div>
 
-                    <div className="check-flex">
-                        <div className="round">
-                            <input type="checkbox" id="checkbox10"/>
-                            <label htmlFor="checkbox10"></label>
-                        </div>
-                        <span className="circle-pd txt-24 col-heavyDark mouse-cursor">Psychotherapists</span>
+                    <div className="use-app-flex">
+                        <div><img src={require('../assets/img/landing/circle-checkBox.svg')} alt="" /> </div>
+                        <div className="circle-pd txt-24 col-heavyDark">Psychotherapists</div>
                     </div>
 
-                    <div className="check-flex">
-                        <div className="round">
-                            <input type="checkbox" id="checkbox11"/>
-                            <label htmlFor="checkbox11"></label>
-                        </div>
-                        <span className="circle-pd txt-24 col-heavyDark mouse-cursor">Marriage & Family Therapists</span>
+                    <div className="use-app-flex">
+                        <div><img src={require('../assets/img/landing/circle-checkBox.svg')} alt="" /> </div>
+                        <div className="circle-pd txt-24 col-heavyDark">Marriage & Family Therapists</div>
                     </div>
 
-                    <div className="check-flex">
-                        <div className="round">
-                            <input type="checkbox" id="checkbox12"/>
-                            <label htmlFor="checkbox12"></label>
-                        </div>
-                        <span className="circle-pd txt-24 col-heavyDark mouse-cursor">Social Workers</span>
+                    <div className="use-app-flex">
+                        <div><img src={require('../assets/img/landing/circle-checkBox.svg')} alt="" /> </div>
+                        <div className="circle-pd txt-24 col-heavyDark">Social Workers</div>
                     </div>
 
-                    <div className="check-flex">
-                        <div className="round">
-                            <input type="checkbox" id="checkbox13"/>
-                            <label htmlFor="checkbox13"></label>
-                        </div>
-                        <span className="circle-pd txt-24 col-heavyDark mouse-cursor">Occupational Therapists</span>
+                    <div className="use-app-flex">
+                        <div><img src={require('../assets/img/landing/circle-checkBox.svg')} alt="" /> </div>
+                        <div className="circle-pd txt-24 col-heavyDark">Occupational Therapists</div>
                     </div>
 
-                    <div className="check-flex">
-                        <div className="round">
-                            <input type="checkbox" id="checkbox14"/>
-                            <label htmlFor="checkbox14"></label>
-                        </div>
-                        <span className="circle-pd txt-24 col-heavyDark mouse-cursor">Speech-Language Pathologists</span>
+                    <div className="use-app-flex">
+                        <div><img src={require('../assets/img/landing/circle-checkBox.svg')} alt="" /> </div>
+                        <div className="circle-pd txt-24 col-heavyDark">Speech-Language Pathologists</div>
                     </div>
                 </div>
             </div>
