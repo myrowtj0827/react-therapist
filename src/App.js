@@ -35,31 +35,50 @@ function App() {
               path='/home'
               component={Landing}
           />
-
-            <Route
-                path='/help-article'
-                component={HelpArticle}
-            />
-
-            <Route
+          <Route
+              path='/help-article'
+              component={HelpArticle}
+          />
+          <Route
               path='/help-center-detail'
               component={HelpCenterDetail}
-             />
-
+          />
           <Route
               path='/help'
               component={HelpCenter}
           />
-
           <Route
               path='/blog'
               component={Blog}
           />
-
           <Route
               path='/blog-article'
               component={BlogArticle}
           />
+          <Route
+              path='/features-payment'
+              component={FeaturesPayment}
+          />
+          <Route
+              path='/features-scheduling'
+              component={FeaturesScheduling}
+          />
+          <Route
+              path='/features-page'
+              component={FeaturesPage}
+          />
+          <Route
+              path='/features-notes'
+              component={FeaturesNotes}
+          />
+          <Route
+              path='/features-online-session'
+              component={FeaturesOnlineSession}
+          />
+
+
+
+
 
           <Route
               path='/directory'

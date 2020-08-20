@@ -199,25 +199,9 @@
     max-width: 100%;
 }
 
-.btn-try-our {
-    margin: 20px;
-    padding: 10px 40px;
-    border: 1px solid var(--col-bttonAndLink);
-    border-radius: 4px;
-    ransition: all .15s linear;
-}
-
 .try-pricing:hover {
     color: #ffffff;
     background-color: var(--col-bttonAndLink) !important;
-}
-
-.btn-request-b {
-    border: 1px solid var(--col-foreGround);
-}
-
-.btn-try-our:hover {
-    background-color: #fff2;
 }
 
 .online-practice-pm {

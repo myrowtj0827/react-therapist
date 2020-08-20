@@ -37,10 +37,6 @@
         width: 100% !important;
         max-width: 100% !important;
     }
-
-    .justify-rl > div.btn-txt {
-        display: inline !important;
-    }
 }
 
 @media screen and (max-width: 480px){
@@ -135,12 +131,6 @@ hr {
 
 .btn-blog-login:hover {
     background-color: #fff2;
-}
-
-.btn-txt {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 80%;
 }
 
 .blog-social-share {

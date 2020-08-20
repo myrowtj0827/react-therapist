@@ -168,28 +168,6 @@ input {
     padding-top: 53px;
 }
 
-.product-btn {
-    margin-right: 11px;
-    padding: 15px 20px;
-    border: 1px solid #d9d9d9;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-.product-btn:hover {
-    color: #ffffff;
-    background-color: var(--col-heavyDark);
-}
-
-.help-center-align {
-    margin: 50px auto;
-    display: flex;
-    width: 100%;
-    max-width: 100%;
-    justify-content: center;
-    text-align: center;
-}
-
 /**
  * Help Center
  */
