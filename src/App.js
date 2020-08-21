@@ -75,8 +75,14 @@ function App() {
               path='/features-online-session'
               component={FeaturesOnlineSession}
           />
-
-
+          <Route
+              path='/view-provider'
+              component={ViewProvider}
+          />
+          <Route
+              path='/directory-search'
+              component={DirectorySearch}
+          />
 
 
 

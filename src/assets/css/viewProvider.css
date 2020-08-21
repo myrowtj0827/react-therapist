@@ -1,0 +1,251 @@
+/**
+ * View Provider Page
+ */
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 992px) {
+    .view-grid3 {
+        margin-top: 35px !important;
+        grid-template-columns: 1fr !important;
+        grid-auto-rows: auto !important;
+    }
+
+    .view-grid21,
+    .view-grid22 {
+        grid-template-columns: 1.5fr 1fr !important;
+        grid-auto-rows: 1fr !important;
+        grid-column-gap: 35px !important;
+    }
+
+    .view-grid21 {
+        grid-template-rows: auto auto !important;
+    }
+
+    .view-grid22 {
+        margin-top: 35px !important;
+        grid-template-rows: auto auto !important;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .psychologist-posi {
+        left: 0 !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .newYork-pt {
+        display: inline !important;
+    }
+
+    .llc-icon-pl {
+        padding-top: 15px !important;
+    }
+
+    .llc-city-pr {
+        padding-top: 20px !important;
+        padding-right: 0 !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .view-grid21,
+    .view-grid22 {
+        grid-template-columns: 1fr !important;
+        grid-auto-rows: auto !important;
+    }
+
+    .view-grid21 {
+        margin-bottom: 35px !important;
+    }
+
+    .mobile-flex {
+        display: flex !important;
+    }
+
+    .un-between > div.justify-center {
+        display: inline !important;
+    }
+
+    .robot-maxWidth {
+        margin: 0 10% 15px !important;
+        width: 100% !important;
+        max-width: 80% !important;
+        text-align: center !important;
+    }
+
+    .view-ptl {
+        padding: 20px !important;
+    }
+
+    input {
+        max-width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+
+/**
+ * main
+ */
+
+.view-header-bgColor {
+    margin: 0 auto;
+    width: 100%;
+    height: 92px;
+    background: linear-gradient(90deg, #00CED1 0%, #00DD92 100%);
+    text-align: center;
+}
+
+.llc-cover-bg {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    height: 400px;
+    text-align: center;
+    background-image: url("../img/llc-cover.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.psychologist-posi {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.newYork-pt {
+    display: flex;
+    padding-top: 15px;
+}
+
+.view-header-pt {
+    padding-top: 46px;
+}
+
+.view-grid3 {
+    display: grid;
+    padding-bottom: 36px;
+    grid-template-columns: 1fr 1.6fr 1fr;
+    grid-auto-rows: 1fr;
+    grid-column-gap: 35px;
+}
+
+.view-grid21 {
+    grid-template-rows: 6fr 1fr;
+}
+
+.view-grid22 {
+    grid-template-rows: 1fr 1fr;
+}
+
+.view-grid21,
+.view-grid22 {
+    display: grid;
+    grid-auto-columns: auto;
+    grid-row-gap: 36px;
+}
+
+.view-grid-bg {
+    background: rgba(60, 187, 182, 0.07);
+}
+
+
+.view-ptl {
+    padding: 20px 25px 30px;
+}
+
+.login-for {
+    margin: 36px auto 0;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-height: 128px;
+    text-align: center;
+    background: linear-gradient(90deg, #00CED1 0%, #00DD92 100%);
+}
+
+.btn-view-login {
+    padding: 10px 80px;
+}
+
+hr {
+    padding: 5px 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+
+    background-color: var(--col-part-bg);
+}
+
+.view-icon1-pt {
+    padding-top: 10px;
+}
+
+.view-icon-desc {
+    padding-left: 5px;
+}
+
+.view-desc-pt {
+    padding-top: 15px;
+}
+
+.map-img {
+    margin-bottom: 20px;
+    min-width: 200px;
+}
+
+.input-pb {
+    margin-top: 25px;
+}
+
+.input-message {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+.asteristic-pl {
+    padding-left: 10px;
+}
+
+.llc-icon-pl {
+    padding-left: 10px;
+}
+
+.llc-city-pr {
+    padding-right: 50px;
+}
+
+.input-maxW {
+    max-width: 40%;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 17px;
+    border: 1px solid var(--col-lightColor);
+    border-radius: 4px;
+
+    width: 100%;
+    max-width: 100%;
+    background-color: #ffffff;
+}
+
+::placeholder {
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--col-lightColor);
+}

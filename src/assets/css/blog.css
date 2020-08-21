@@ -55,7 +55,7 @@
     bottom: 60px;
 }
 
-select {
+select.country-option {
     width: 250px;
     padding: 9px 16px;
     border: 1px solid #d9d9d9;

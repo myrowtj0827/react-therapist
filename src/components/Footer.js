@@ -51,9 +51,9 @@ function Footer() {
                         <div className="btn-contact-us col-buttonAndLink mouse-cursor">Contact Us</div>
                     </div>
 
-                    <div className="txt-14 col-heavyDark mouse-cursor">Connect with Us</div>
+                    <div className="social-icon6 txt-14 col-heavyDark mouse-cursor">Connect with Us</div>
 
-                    <div>
+                    <div className="social-icon6">
                         <img className="icon-mr mouse-cursor" src={require('../assets/img/landing/icon-1.svg')} alt="" />
                         <img className="icon-mr mouse-cursor" src={require('../assets/img/landing/icon-2.svg')} alt="" />
                         <img className="icon-mr mouse-cursor" src={require('../assets/img/landing/icon-3.svg')} alt="" />
@@ -67,7 +67,7 @@ function Footer() {
             <div className="stripe-pt justify-footer">
                 <div>
                     <div>
-                        <img className="mouse-cursor" src={require('../assets/img/landing/app-logo.svg')} alt="" />
+                        <img className="tele-img mouse-cursor" src={require('../assets/img/landing/app-logo.svg')} alt="" />
                         <div className="txt-12 col-buttonAndLink">
                             &copy;2020 Tele Therapist LLC. All Rights Reserved.
                         </div>

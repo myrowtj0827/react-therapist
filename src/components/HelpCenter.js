@@ -13,7 +13,7 @@ function HelpCenter() {
                     <div className="txt-42 help-need">Need help?</div>
                     <div className="txt-24 right-place">You are in the right place.</div>
 
-                    <div className="flex-grid2">
+                    <div className="help-flex-grid2">
                         <div><input type="text" placeholder="I need help with ..." /></div>
 
                         <div className="justify-center btn-find-help txt-16 mouse-cursor">Find Help</div>

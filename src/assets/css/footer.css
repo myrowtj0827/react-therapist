@@ -3,19 +3,16 @@
  * Footer page
  */
 
-@media screen {
-    .footer-menu {
-        padding-right: 60px !important;
-        padding-left: 60px !important;
+@media screen and (max-width: 480px){
+    .btn-contact-us,
+    .social-icon6 {
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: center !important;
     }
 }
 .footer-pd {
     padding: 68px 0 111px;
-}
-
-.footer-menu {
-    padding-right: 100px;
-    padding-left: 100px;
 }
 
 .txt-align {

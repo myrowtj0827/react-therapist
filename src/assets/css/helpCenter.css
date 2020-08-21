@@ -3,7 +3,7 @@
  */
 
 @media screen and (max-width: 1200px){
-    .flex-grid2 {
+    .help-flex-grid2 {
         grid-template-columns: 4fr 1fr !important;
     }
 }
@@ -45,7 +45,7 @@
         margin-bottom: 20px !important;
     }
 
-    .flex-grid2 {
+    .help-flex-grid2 {
         display: grid;
         grid-template-columns: 1fr !important;
         grid-auto-rows: 1fr;
@@ -106,7 +106,7 @@ input {
     background-color: #0004;
 }
 
-.flex-grid2 {
+.help-flex-grid2 {
     display: grid;
     grid-template-columns: 6fr 1fr;
     grid-auto-rows: 1fr;

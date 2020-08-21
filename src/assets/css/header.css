@@ -30,12 +30,18 @@
 }
 
 @media screen and (max-width: 600px) {
+    .tablet-shown {
+        display: none !important;
+    }
 
+    .phone-shown {
+        display: block !important;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .logo-mw {
-        padding: 13px 5px !important;
+        padding: 15px !important;
     }
 }
 
@@ -103,6 +109,15 @@
 .navbar-menu:hover {
     background-color: #1EE8DC;
 }
+
 .btn-navbar-bb {
     border-bottom: 1px solid var(--col-lightColor);
+}
+
+.tablet-shown {
+    display: block;
+}
+
+.phone-shown {
+    display: none;
 }

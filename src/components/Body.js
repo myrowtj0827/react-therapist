@@ -17,6 +17,7 @@ import HelpCenter from "./HelpCenter";
 import HelpCenterDetail from "./HelpCenterDetail";
 import BlogArticle from "./BlogArticle";
 import Home from './Home';
+import ViewProvider from "./ViewProvider";
 
 
 function Body() {
@@ -66,18 +67,21 @@ function Body() {
                 path='/features-online-session'
                  component={FeaturesOnlineSession}
              />
+            <Route
+                path='/view-provider'
+                component={ViewProvider}
+            />
+            <Route
+                path='/directory-search'
+                component={DirectorySearch}
+            />
+
+
+
 
             <Route
                 path='/pricing'
                 component={Pricing}
-            />
-            <Route
-                path='/blog'
-                component={Blog}
-            />
-            <Route
-                path='/blog-article'
-                component={Article}
             />
             <Route
                 path='/directory'

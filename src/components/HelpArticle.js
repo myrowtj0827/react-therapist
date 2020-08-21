@@ -9,7 +9,7 @@ function HelpArticle() {
                 <Header></Header>
 
                 <div className="header-mt">
-                    <div className="flex-grid2">
+                    <div className="help-flex-grid2">
                         <div><input type="text" placeholder="I need help with ..." /></div>
 
                         <div className="justify-center btn-find-help txt-16 mouse-cursor">Find Help</div>

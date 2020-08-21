@@ -5,19 +5,7 @@ import $ from "jquery";
 function Header() {
 
     const [menuVisible, setMenuVisible] = useState(false);
-
-    /*$('div.menu').click(function () {
-        let x = document.getElementById("menu");
-        if (x.style.display === "none") {
-            x.style.display = 'block';
-        } else {
-            x.style.display = 'none';
-        }
-    });*/
-
     const toggleMenu = () => {
-
-
         setMenuVisible(!menuVisible);
     };
 
@@ -26,8 +14,11 @@ function Header() {
             <div className="header-height">
                 <div className="logo-mw justify-rl">
                     <div>
-                        <div><img className="mouse-cursor" src={require('../assets/img/landing/app-logo.svg')} alt="Logo"/>
+                        <div>
+                            <img className="mouse-cursor tablet-shown" src={require('../assets/img/landing/app-logo.svg')} alt="Logo"/>
+                            <img className="mouse-cursor phone-shown" src={require('../assets/img/landing/app-logo-mobile.svg')} alt="Logo"/>
                         </div>
+
                         <div className="justify-rl justify-center">
                             <div>
                                 <div className="btn-navbar mouse-cursor">Pricing</div>
