@@ -12,8 +12,6 @@ import FeaturesOnlineSession from "./components/FeaturesOnlineSession";
 import FeaturesPage from "./components/FeaturesPage";
 import FeaturesPayment from "./components/FeaturesPayment";
 import FeaturesScheduling from "./components/FeaturesScheduling";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
 import HelpCenter from "./components/HelpCenter";
 import HelpArticle from "./components/HelpArticle";
 import HelpCenterDetail from "./components/HelpCenterDetail";
@@ -21,7 +19,6 @@ import Home from "./components/Home";
 import Pricing from "./components/Pricing";
 import ViewProvider from "./components/ViewProvider";
 import Landing from "./components/Landing";
-
 
 function App() {
   return (
@@ -83,14 +80,14 @@ function App() {
               path='/directory-search'
               component={DirectorySearch}
           />
-
-
-
           <Route
               path='/directory'
               component={Directory}
           />
-
+          <Route
+              path='/pricing'
+              component={Pricing}
+          />
           <Redirect
               to='/'
           />

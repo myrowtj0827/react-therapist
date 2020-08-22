@@ -2,7 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Redirect, Route, Switch} from "react-router-dom";
 
 import Blog from "./Blog";
-import Article from "./BlogArticle";
+import BlogArticle from "./BlogArticle";
 import Directory from "./Directory";
 import Landing from "./Landing";
 import Pricing from "./Pricing";
@@ -15,8 +15,6 @@ import FeaturesScheduling from "./FeaturesScheduling";
 import HelpArticle from "./HelpArticle";
 import HelpCenter from "./HelpCenter";
 import HelpCenterDetail from "./HelpCenterDetail";
-import BlogArticle from "./BlogArticle";
-import Home from './Home';
 import ViewProvider from "./ViewProvider";
 
 
@@ -75,10 +73,6 @@ function Body() {
                 path='/directory-search'
                 component={DirectorySearch}
             />
-
-
-
-
             <Route
                 path='/pricing'
                 component={Pricing}

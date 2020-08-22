@@ -84,6 +84,23 @@
     display: none;
 }
 
+@keyframes ami {
+    from { transform: scaleY(0);
+    }
+    to {
+        transform: scaleY(1);
+    }
+}
+
+.trans-menu {
+    transform-origin: 0 0;
+    opacity: 0.9;
+
+    animation: ami 0.3s ease-out;
+}
+
+
+
 .menu-hidden {
 }
 

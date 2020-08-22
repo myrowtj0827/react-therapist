@@ -86,7 +86,7 @@
 * {
   box-sizing: border-box;
   font-family: Poppins, sans-serif;
-
+  transition: all .3s ease-out;
   /**
    * Dimension
    */
@@ -253,6 +253,9 @@ text-decoration: none !important;
 color: white !important;
 }
 
+a {
+  text-decoration: none;
+}
 /**
  * Footer
  */

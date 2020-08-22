@@ -134,21 +134,21 @@ function Directory() {
                         imgLinkFirst && imgLinkFirst.map((item, key) => {
                             if (key === 0) {
                                 return (
-                                    <div className="therapy-span2 acute-chronic">
+                                    <div className="therapy-span2 acute-chronic mouse-cursor">
                                         <img className="auto-matching" src={item.link} alt="" />
                                         <div className="search-img-txt txt-24">{item.desc}</div>
                                     </div>
                                 )
                             } else if (key === 62) {
                                 return (
-                                    <div className="therapy-span3 acute-chronic">
+                                    <div className="therapy-span3 acute-chronic mouse-cursor">
                                         <img className="auto-matching span3-min" src={item.link} alt="" />
                                         <div className="search-img-txt txt-24">{item.desc}</div>
                                     </div>
                                 )
                             } else {
                                 return (
-                                    <div className="acute-chronic">
+                                    <div className="acute-chronic mouse-cursor">
                                         <img className="auto-matching" src={item.link} alt="" />
                                         <div className="search-img-txt txt-24">{item.desc}</div>
                                     </div>
@@ -173,14 +173,14 @@ function Directory() {
                         imgLinkSecond && imgLinkSecond.map((item, key) => {
                             if (key === 0) {
                                 return (
-                                    <div className="therapy-span2 acute-chronic">
+                                    <div className="therapy-span2 acute-chronic mouse-cursor">
                                         <img className="auto-matching" src={item.link} alt="" />
                                         <div className="search-img-txt txt-24">{item.desc}</div>
                                     </div>
                                 )
                             } else {
                                 return (
-                                    <div className="acute-chronic">
+                                    <div className="acute-chronic mouse-cursor">
                                         <img className="auto-matching" src={item.link} alt="" />
                                         <div className="search-img-txt txt-24">{item.desc}</div>
                                     </div>

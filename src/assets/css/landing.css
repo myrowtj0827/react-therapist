@@ -199,6 +199,10 @@
     max-width: 100%;
 }
 
+.online-img:hover {
+    opacity: 0.6;
+}
+
 .try-pricing:hover {
     color: #ffffff;
     background-color: var(--col-bttonAndLink) !important;
