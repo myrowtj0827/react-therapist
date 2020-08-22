@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-import $ from "jquery";
+// import $ from "jquery";
 
 function Header() {
 
@@ -24,9 +24,9 @@ function Header() {
                                 <a className="btn-underLine" href="/pricing"><div className="btn-navbar mouse-cursor">Pricing</div></a>
                                 <a className="btn-underLine" href="/directory"><div className="btn-navbar mouse-cursor">Directory</div></a>
                                 <a className="btn-underLine" href="/features-page"><div className="btn-navbar mouse-cursor">Features</div></a>
-                                <a className="btn-underLine"><div className="btn-navbar mouse-cursor">Resource</div></a>
-                                    <a className="btn-underLine"><div className="btn-navbar mouse-cursor">Login</div></a>
-                                        <a className="btn-underLine"><div className="btn-navbar mouse-cursor bg-signUp">Sign-Up</div></a>
+                                <a className="btn-underLine" href="/" ><div className="btn-navbar mouse-cursor">Resource</div></a>
+                                    <a className="btn-underLine" href="/" ><div className="btn-navbar mouse-cursor">Login</div></a>
+                                        <a className="btn-underLine" href="/" ><div className="btn-navbar mouse-cursor bg-signUp">Sign-Up</div></a>
                             </div>
 
                             <div id="menu" className="justify-center" onClick={toggleMenu}>
@@ -41,12 +41,12 @@ function Header() {
             {
                 menuVisible && (
                     <div className="menu-container trans-menu">
-                        <a className="btn-underLine"><div className="navbar-menu justify-center txt-24 mouse-cursor btn-navbar-bb">Sign-Up</div></a>
-                        <a className="btn-underLine"><div className="navbar-menu justify-center txt-24 mouse-cursor btn-navbar-bb">Login</div></a>
+                        <a className="btn-underLine" href="/" ><div className="navbar-menu justify-center txt-24 mouse-cursor btn-navbar-bb">Sign-Up</div></a>
+                        <a className="btn-underLine" href="/" ><div className="navbar-menu justify-center txt-24 mouse-cursor btn-navbar-bb">Login</div></a>
                         <a className="btn-underLine" href="/pricing"><div className="navbar-menu justify-center txt-24 mouse-cursor btn-navbar-bb">Pricing</div></a>
                         <a className="btn-underLine" href="/directory"><div className="navbar-menu justify-center txt-24 mouse-cursor btn-navbar-bb">Directory</div></a>
                         <a className="btn-underLine" href="/features-page"><div className="navbar-menu justify-center txt-24 mouse-cursor btn-navbar-bb">Features</div></a>
-                        <a className="btn-underLine"><div className="navbar-menu justify-center txt-24 mouse-cursor">Resources</div></a>
+                        <a className="btn-underLine" href="/" ><div className="navbar-menu justify-center txt-24 mouse-cursor">Resources</div></a>
                     </div>
                 )
             }

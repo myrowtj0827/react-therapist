@@ -14,10 +14,6 @@ function DirectorySearch() {
             <div className="view-header-bgColor justify-center">
                 <Header></Header>
             </div>
-
-
-
-
             <div className="whole-body-mW directory-header-pt">
                 <div className="justify-rl">
                     <div>
@@ -36,258 +32,88 @@ function DirectorySearch() {
                     <img className="down-up-pl" src={require('../assets/img/down-icon.svg')} alt="" />
                 </div>
 
-
                 {
                     menuVisible && (
                         <div className="content">
                             <div className="flex-grid4">
                                 <div>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Acceptance and Commitment ...</a>
+                                        <span className="txt-14">Acceptance and Commitment ...</span>
                                         <input type="checkbox" checked/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Adolescents</a>
+                                        <span className="txt-14">Adolescents</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Assessment</a>
+                                        <span className="txt-14">Assessment</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Chronic Illness & Disability</a>
+                                        <span className="txt-14">Chronic Illness & Disability</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Cognitive Behavioral Therapy</a>
+                                        <span className="txt-14">Cognitive Behavioral Therapy</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Couples/Marriage</a>
+                                        <span className="txt-14">Couples/Marriage</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Eating Disorders</a>
+                                        <span className="txt-14">Eating Disorders</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Forensic Psychology</a>
+                                        <span className="txt-14">Forensic Psychology</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Indigenous & First Nations & Na...</a>
+                                        <span className="txt-14">Indigenous & First Nations & Na...</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Life Transitions</a>
+                                        <span className="txt-14">Life Transitions</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Mindfulness</a>
+                                        <span className="txt-14">Mindfulness</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Obsessive Compulsive Disorder...</a>
+                                        <span className="txt-14">Obsessive Compulsive Disorder...</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Post-Traumatic Stress Disorder</a>
+                                        <span className="txt-14">Post-Traumatic Stress Disorder</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Self-Esteem</a>
+                                        <span className="txt-14">Self-Esteem</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Spirituality/Faith</a>
+                                        <span className="txt-14">Spirituality/Faith</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Wellness of Musculoskeletal Sys...</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                </div>
-
-
-                                <div>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Acute and Chronic Medical Cond...</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">African American</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Autism Spectrum Disorder</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Clinical Hypnosis</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">College Students</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Depression</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">EMDR</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Gender and sexual diversity</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Infertility</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Men's Issues & Health</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Motivation & Goal Achievement</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Parenting</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Postpartum Depression</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Sexual Abuse</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Sport Performance and Biofeed...</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Women's Issues & Health</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-
-                                </div>
-
-
-                                <div>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Addictions/Recovery</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Anger Management</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Bipolar Disorder</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Clinical Supervision</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Compassion Fatigue & Burnout</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Diabetes</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Erectile Dysfunction</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Grief</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Intimacy & Sexual Health</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Metabolic Syndrome</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Narcissism</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Pastors</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Relationships</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Sexual Addiction</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Stress</a>
-                                        <input type="checkbox"/>
-                                        <span className="checkMark"/>
-                                    </label>
-                                    <label className="container-event align-l">
-                                        <a className="txt-14">Work Issues/Performance</a>
+                                        <span className="txt-14">Wellness of Musculoskeletal Sys...</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
@@ -296,77 +122,246 @@ function DirectorySearch() {
 
                                 <div>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">ADHD/ADD</a>
+                                        <span className="txt-14">Acute and Chronic Medical Cond...</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Anxiety</a>
+                                        <span className="txt-14">African American</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Borderline Personality Disorder</a>
+                                        <span className="txt-14">Autism Spectrum Disorder</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Codependecy</a>
+                                        <span className="txt-14">Clinical Hypnosis</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Coping Skills</a>
+                                        <span className="txt-14">College Students</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Divorce</a>
+                                        <span className="txt-14">Depression</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Family</a>
+                                        <span className="txt-14">EMDR</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Immigrant and Refugee Mental ...</a>
+                                        <span className="txt-14">Gender and sexual diversity</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">LGBTQIA</a>
+                                        <span className="txt-14">Infertility</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Military Related Issues</a>
+                                        <span className="txt-14">Men's Issues & Health</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Obesity</a>
+                                        <span className="txt-14">Motivation & Goal Achievement</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Phobias</a>
+                                        <span className="txt-14">Parenting</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Schizophrenia</a>
+                                        <span className="txt-14">Postpartum Depression</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Social Justice/Search for Meaning</a>
+                                        <span className="txt-14">Sexual Abuse</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>
                                     <label className="container-event align-l">
-                                        <a className="txt-14">Trauma/Abuse</a>
+                                        <span className="txt-14">Sport Performance and Biofeed...</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Women's Issues & Health</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+
+                                </div>
+
+
+                                <div>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Addictions/Recovery</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Anger Management</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Bipolar Disorder</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Clinical Supervision</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Compassion Fatigue & Burnout</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Diabetes</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Erectile Dysfunction</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Grief</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Intimacy & Sexual Health</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Metabolic Syndrome</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Narcissism</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Pastors</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Relationships</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Sexual Addiction</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Stress</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Work Issues/Performance</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                </div>
+
+
+                                <div>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">ADHD/ADD</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Anxiety</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Borderline Personality Disorder</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Codependecy</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Coping Skills</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Divorce</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Family</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Immigrant and Refugee Mental ...</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">LGBTQIA</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Military Related Issues</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Obesity</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Phobias</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Schizophrenia</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Social Justice/Search for Meaning</span>
+                                        <input type="checkbox"/>
+                                        <span className="checkMark"/>
+                                    </label>
+                                    <label className="container-event align-l">
+                                        <span className="txt-14">Trauma/Abuse</span>
                                         <input type="checkbox"/>
                                         <span className="checkMark"/>
                                     </label>

@@ -2,7 +2,7 @@ import React from 'react';
 import Header from "./Header";
 import "../assets/css/landing.css";
 
-import $ from 'jquery';
+// import $ from 'jquery';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -26,7 +26,7 @@ function Landing() {
                 <div className="flex-grid4">
                     <div>
                         <div className="">
-                            <img className="online-img mouse-cursor" src={require('../assets/img/landing/online-practical-1.svg')}/>
+                            <img className="online-img mouse-cursor" src={require('../assets/img/landing/online-practical-1.svg')} alt="" />
                         </div>
                         <div className="take-practice-tp justify-center col-heavyDark txt-24">
                             Meet your clients via video
@@ -35,7 +35,7 @@ function Landing() {
 
                     <div>
                         <div className="">
-                            <img className="online-img mouse-cursor" src={require('../assets/img/landing/online-practice-2.svg')}/>
+                            <img className="online-img mouse-cursor" src={require('../assets/img/landing/online-practice-2.svg')} alt="" />
                         </div>
                         <div className="take-practice-tp justify-center col-heavyDark txt-24">
                             Enable client communication
@@ -44,7 +44,7 @@ function Landing() {
 
                     <div>
                         <div className="">
-                            <img className="online-img mouse-cursor" src={require('../assets/img/landing/online-practice-3.svg')}/>
+                            <img className="online-img mouse-cursor" src={require('../assets/img/landing/online-practice-3.svg')} alt="" />
                         </div>
                         <div className="take-practice-tp justify-center col-heavyDark txt-24">
                             Extend your practice's reach
@@ -53,7 +53,7 @@ function Landing() {
 
                     <div>
                         <div className="">
-                            <img className="online-img mouse-cursor" src={require('../assets/img/landing/online-practice-4.svg')}/>
+                            <img className="online-img mouse-cursor" src={require('../assets/img/landing/online-practice-4.svg')} alt="" />
                         </div>
                         <div className="take-practice-tp justify-center col-heavyDark txt-24">
                             Maintain HIPAA Security
@@ -94,14 +94,6 @@ function Landing() {
                 </div>
 
                 <div className="check-width flex-grid2">
-                    {/*<div className="check-flex">*/}
-                    {/*    <div className="round">*/}
-                    {/*        <input type="checkbox" id="checkbox1"/>*/}
-                    {/*        <label htmlFor="checkbox1"></label>*/}
-                    {/*    </div>*/}
-                    {/*    <span className="circle-pd txt-24 col-heavyDark mouse-cursor">Addition Specialists</span>*/}
-                    {/*</div>*/}
-
                     <div className="use-app-flex">
                         <div><img src={require('../assets/img/landing/circle-checkBox.svg')} alt="" /> </div>
                         <div className="circle-pd txt-24 col-heavyDark">Addition Specialists</div>
@@ -189,7 +181,7 @@ function Landing() {
                 <div className="flex-grid4 col-heavyDark refixing-gap">
                     <div className="features-mb">
                         <div className="features-img-pb">
-                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/hipaa.svg')}/>
+                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/hipaa.svg')} alt="" />
                         </div>
                         <div className="txt-24">
                             HIPAA COMPLEANT
@@ -201,7 +193,7 @@ function Landing() {
 
                     <div className="features-mb">
                         <div className="features-img-pb">
-                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/easy.svg')}/>
+                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/easy.svg')} alt="" />
                         </div>
                         <div className="txt-24">
                             EASY SCHEDULING
@@ -213,7 +205,7 @@ function Landing() {
 
                     <div className="features-mb">
                         <div className="features-img-pb">
-                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/accept.svg')}/>
+                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/accept.svg')} alt="" />
                         </div>
                         <div className="txt-24">
                             ACCEPT CLIENT PAYMENT
@@ -225,7 +217,7 @@ function Landing() {
 
                     <div className="features-mb">
                         <div className="features-img-pb">
-                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/group.svg')}/>
+                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/group.svg')} alt="" />
                         </div>
                         <div className="txt-24">
                             GROUP OR FAMILY SESSIONS
@@ -237,7 +229,7 @@ function Landing() {
 
                     <div className="features-mb">
                         <div className="features-img-pb">
-                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/secure.svg')}/>
+                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/secure.svg')} alt="" />
                         </div>
                         <div className="txt-24">
                             SECURE MESSAGING
@@ -249,7 +241,7 @@ function Landing() {
 
                     <div className="features-mb">
                         <div className="features-img-pb">
-                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/session.svg')}/>
+                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/session.svg')} alt="" />
                         </div>
                         <div className="txt-24">
                             SESSION/CLIENT NOTES
@@ -261,7 +253,7 @@ function Landing() {
 
                     <div className="features-mb">
                         <div className="features-img-pb">
-                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/chat.svg')}/>
+                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/chat.svg')} alt="" />
                         </div>
                         <div className="txt-24">
                             CHAT WITH YOUR CLIENTS
@@ -273,7 +265,7 @@ function Landing() {
 
                     <div className="features-mb">
                         <div className="features-img-pb">
-                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/works.svg')}/>
+                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/works.svg')} alt="" />
                         </div>
                         <div className="txt-24">
                             WORKS ON ALL DEVICES
@@ -285,7 +277,7 @@ function Landing() {
 
                     <div className="features-mb">
                         <div className="features-img-pb">
-                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/share.svg')}/>
+                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/share.svg')} alt="" />
                         </div>
                         <div className="txt-24">
                             SHARE FILES SECURELY
@@ -297,7 +289,7 @@ function Landing() {
 
                     <div className="features-mb">
                         <div className="features-img-pb">
-                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/custome.svg')}/>
+                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/custome.svg')} alt="" />
                         </div>
                         <div className="txt-24">
                             CUSTOM WAITING ROOM
@@ -309,7 +301,7 @@ function Landing() {
 
                     <div className="features-mb">
                         <div className="features-img-pb">
-                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/api.svg')}/>
+                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/api.svg')} alt="" />
                         </div>
                         <div className="txt-24">
                             API
@@ -321,7 +313,7 @@ function Landing() {
 
                     <div className="features-mb">
                         <div className="features-img-pb">
-                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/directory.svg')}/>
+                            <img className="features-icons mouse-cursor" src={require('../assets/img/landing/directory.svg')} alt="" />
                         </div>
                         <div className="txt-24">
                             DIRECTORY LISTING

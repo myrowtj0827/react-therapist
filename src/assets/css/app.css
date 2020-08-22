@@ -100,6 +100,7 @@
   --col-lightColor: #ABF2D3;
   --col-foreGround: #F0FFF4;
   --col-darkBlue: #143D59;
+  --col-browny: #88862B;
   --col-light-bg: rgba(196, 196, 196, 0.21);
   --col-part-bg: linear-gradient(90deg, #00CED1 0%, #00DD92 100%);
 }
